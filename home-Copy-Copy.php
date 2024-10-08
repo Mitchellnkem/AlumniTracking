@@ -565,11 +565,14 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
                                                                 </tr>
                                                                 <tr>
                                                                     <td align="right" width="40%">
-                                                                        State :
+                                                                        State : <Br>
+                                                                        change the addresses for this section
                                                                     </td>
                                                                     <td align="left" width="60%">
                                                                 <select name="state" required>
-		<option  value="">--Select--</option>
+
+        
+		<option  value="">--Select--</option> 
 		<option value="ANDAMAN &amp; NICOBAR ISLANDS (UT)">ANDAMAN &amp; NICOBAR ISLANDS (UT)</option>
 		<option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
 		<option value="ARUNACHAL PRADESH">ARUNACHAL PRADESH</option>
@@ -670,7 +673,7 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="Portion12a" align="right" width="20%">
-                                                                        Father's/Guardian's :<span class="green_txt">#</span>&nbsp;
+                                                                        Father's/Guardian's/Uncle's:  <span class="green_txt"></span>&nbsp;
                                                                     </td>
                                                                     <td align="left" width="26%">
 <select name="fqualification" style="width:180px;" >
@@ -689,7 +692,7 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
 		<option value="AGRICULTURE">AGRICULTURE</option>
 		<option value="BUSINESS">BUSINESS</option>
 		<option value="MEDICAL">MEDICAL</option>
-		<option value="ENGINEERING">ENGINEERING</option>
+		<option value="ENGINEERING">ENGINEERING / TECH / IT</option>
 		<option value="LAW PRACTICE">LAW PRACTICE</option>
 		<option value="GOVERNMENT SERVICE">GOVERNMENT SERVICE</option>
 		<option value="PUBLIC SECTOR SERVICE">PUBLIC SECTOR SERVICE</option>
@@ -705,22 +708,22 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
                                                                     <td align="left" width="28%">
 <select name="fannualincome"  style="width:180px;" >
 		<option  value="NA">--Select--</option>
-		<option value="UPTO 100000">UPTO 100000</option>
-		<option value="RS. 100001 -200000">RS. 100001 -200000</option>
-		<option value="RS. 200001 - 300000">RS. 200001 - 300000</option>
-		<option value="RS. 300001 -400000">RS. 300001 -400000</option>
-		<option value="RS. 400001 -500000">RS. 400001 -500000</option>
-		<option value="RS. 500001-600000">RS. 500001-600000</option>
-		<option value="RS. 600001-700000">RS. 600001-700000</option>
-		<option value="RS. 700001-800000">RS. 700001-800000</option>
-		<option value="RS. 800001 AND ABOVE">RS. 800001 AND ABOVE</option>
+		<option value="UPTO 100000">UPTO $100000</option>
+		<option value="USD. 100001 -200000">USD. $10000 - 200000</option>
+		<option value="USD. 200001 - 300000">USD. $20000 - 300000</option>
+		<option value="USD. 300001 -400000">USD. $30000 - 400000</option>
+		<option value="USD. 400001 -500000">USD. $40000 - 500000</option>
+		<option value="USD. 500001-600000">USD. $50000 - 600000</option>
+		<option value="USD. 600001-700000">USD. $60000 - 700000</option>
+		<option value="USD. 700001-800000">USD. $70000 - 800000</option>
+		<option value="USD. 800001 AND ABOVE">USD. $80000 AND ABOVE</option>
 
 	</select>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="Portion12a" align="right">
-                                                                        Mother's :<span class="green_txt">#</span>&nbsp;
+                                                                        Mother's/Auntie's/Sister's : <span class="green_txt"></span>&nbsp;
                                                                     </td>
                                                                     <td align="left">
 <select name="mqualification" style="width:180px;" >
@@ -738,7 +741,7 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
 		<option value="AGRICULTURE">AGRICULTURE</option>
 		<option value="BUSINESS">BUSINESS</option>
 		<option value="MEDICAL">MEDICAL</option>
-		<option value="ENGINEERING">ENGINEERING</option>
+		<option value="ENGINEERING">ENGINEERING / TECH / IT</option>
 		<option value="LAW PRACTICE">LAW PRACTICE</option>
 		<option value="GOVERNMENT SERVICE">GOVERNMENT SERVICE</option>
 		<option value="PUBLIC SECTOR SERVICE">PUBLIC SECTOR SERVICE</option>
@@ -755,15 +758,15 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
                                                                        
 <select name="mannualincome"  style="width:180px;" >
 		<option  value="NA">--Select--</option>
-		<option value="UPTO 100000">UPTO 100000</option>
-		<option value="RS. 100001 -200000">RS. 100001 -200000</option>
-		<option value="RS. 200001 - 300000">RS. 200001 - 300000</option>
-		<option value="RS. 300001 -400000">RS. 300001 -400000</option>
-		<option value="RS. 400001 -500000">RS. 400001 -500000</option>
-		<option value="RS. 500001-600000">RS. 500001-600000</option>
-		<option value="RS. 600001-700000">RS. 600001-700000</option>
-		<option value="RS. 700001-800000">RS. 700001-800000</option>
-		<option value="RS. 800001 AND ABOVE">RS. 800001 AND ABOVE</option>
+		<option value="UPTO 100000">UPTO $10000</option>
+		<option value="USD. 100001 -200000">USD. $10000 - 200000</option>
+		<option value="USD. 200001 - 300000">USD. $20000 - 300000</option>
+		<option value="USD. 300001 -400000">USD. $30000 - 400000</option>
+		<option value="USD. 400001 -500000">USD. $40000 - 500000</option>
+		<option value="USD. 500001-600000">USD. $50000 - 600000</option>
+		<option value="USD. 600001-700000">USD. $60000 - 700000</option>
+		<option value="USD. 700001-800000">USD. $70000 - 800000</option>
+		<option value="USD. 800001 AND ABOVE">USD. $80000 AND ABOVE</option>
 
 	</select>
                                                                     </td>
@@ -800,7 +803,7 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
                                                                  <select name="sq" required>
 		<option  value="">--Select--</option>
 		<option value="WHICH IS THE WEBSITE YOU RARELY VISIT ?">WHICH IS THE WEBSITE YOU RARELY VISIT ?</option>
-		<option value="WHAT PLANT YOU LIKE OR DISLIKE ?">WHAT PLANT YOU LIKE OR DISLIKE ?</option>
+		<option value="WHAT ARE YOUr LIKEs OR DISLIKEs ?">WHAT ARE YOUR LIKE OR DISLIKE ?</option>
 		<option value="WHAT IS YOUR NEIGHBOR PET NAME ?">WHAT IS YOUR NEIGHBOR PET NAME ?</option>
 		<option value="WHAT IS THE REGISTRATION NUMBER OF YOUR FIRST VEHICLE ?">WHAT IS THE REGISTRATION NUMBER OF YOUR FIRST VEHICLE ?</option>
 		<option value="WHICH BOOK DO YOU LIKE ?">WHICH BOOK DO YOU LIKE ?</option>
